@@ -28,15 +28,19 @@ MySQL
 
 Клонуйте сховище:
 
-	 `git clone `
+	 git clone 
  
 Перейдіть до папки quiz-app:
 
- 	 `cd quiz-app`
+ 	 cd quiz-app
 
 Створіть файл .env з файлу .env.example:
 
-	`cp .env.example .env`
+	cp .env.example .env
+	
+	або
+
+	зробіть копію .env.example і назвіть її просто .env
 
 Внесіть необхідні зміни конфігурації у файл .env:
 
@@ -49,21 +53,21 @@ MySQL
 
 Встановити Composer:
 
-	`composer install`
+	composer install
 	
 Згенерувати ключ додатку:
 
-	`php artisan key:generate`
+	php artisan key:generate
 	
 Встановити Node.js залежності:
 
-	`npm install`
+	npm install
 
 Створити таблиці БД:
 
-	`php artisan migrate --seed`
+	php artisan migrate --seed
 
 Запустити веб-сервер:
 
-	`php artisan serve`
+	php artisan serve
 
